@@ -1,0 +1,27 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'Parker Spielvogel'
+theme = "hugo-starter-theme"
+
+[author]
+    name = "Parker Spielvogel"
+
+[menu]
+    [[menu.main]]
+        identifier = "posts"
+        name = "Posts"
+        url = "/posts"
+        weight = 1
+
+    [[menu.main]]
+        identifier = "projects"
+        name = "Projects"
+        url = "/projects"
+        weight = 2
+
+[markup]
+    [markup.highlight]
+        noClasses = false
+    
+    [markup.goldmark.renderer]
+        unsafe = true

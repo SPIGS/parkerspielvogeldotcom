@@ -1,0 +1,28 @@
+.post-header {
+    margin-bottom: 2rem;
+    h1 {
+        margin-bottom: 0.25rem;
+    }
+
+    time {
+        font-style: italic;
+    }
+}
+
+.post-snippet {
+    margin: 0;
+
+    time {
+        font-style: italic;
+        margin-right: 0.25rem;
+    }
+}
+
+.post-link {
+    color: $link-color;
+    font-weight: bold;
+
+    &:hover {
+        color: $link-hover-color;
+    }
+}

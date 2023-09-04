@@ -1,0 +1,61 @@
+blockquote {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    border-inline-start: 0.35rem solid $purple;
+    border-radius: .2rem;
+    font-style: italic;
+    background: $background-light;
+
+    p {
+        margin: 0;
+    }
+}
+
+pre {
+    background-color: $background-light  !important;
+    font-family: $font-mono;
+    font-size: 1rem;
+    overflow: auto;
+    border-radius: 0.5rem;
+    padding: 1.8rem;
+    margin-bottom: 3rem;
+}
+
+@media screen and (max-width: 48rem) {
+    pre {
+        font-size: 0.85rem;
+        padding: 1.2rem;
+    }
+}
+
+sub,
+sup {
+    font-size: 0.8rem;
+    position: relative;
+    line-height: 0;
+}
+
+sub {
+    bottom: -.25em;
+}
+
+sup {
+    top: -.25em;
+}
+
+kbd,
+mark {
+    color: $foreground-bright;
+    background: $background-highlight;
+    padding: 0.2rem;
+    border-radius: 10px;
+}
+
+kbd {
+    font-family: $font-mono;
+}
+
+time {
+    color: $gray;
+}

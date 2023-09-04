@@ -1,0 +1,18 @@
+{{ partial "header.html" . }}
+
+{{ .Content }}
+
+<h2>Recent posts</h2>
+
+{{ range (where .Site.RegularPages "Type" "posts" | first 5 ) }}
+<ul class="post-snippet">
+    <li>
+        <time datetime="{{ .Date.Format " 2006-01-02T15:04:05Z07:00" }}">
+            {{ .Date.Format "January 2, 2006" }} -
+        </time>
+        <a class="post-link" href="{{ .RelPermalink }}">{{ .Title }}</a>
+    </li>
+</ul>
+{{ end }}
+
+{{ partial "footer.html" . }}

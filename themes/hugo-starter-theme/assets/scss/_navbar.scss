@@ -1,0 +1,56 @@
+// header
+
+header {
+    padding: 2rem 5vw;
+}
+
+nav {
+    display: flex;
+    max-width: 65rem;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: bold;
+    text-decoration: none;
+    color: $logo-color;
+
+    &:hover {
+        color: $logo-hover-color;
+    }
+}
+
+@media screen and (max-width: 48rem) {
+    .logo {
+        :first-child {
+            width: 100%;
+        }
+    }
+}
+
+.main-menu {
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.nav-link {
+    padding: 0 1rem;
+    margin: 0;
+    color: $foreground-dark;
+
+    &:hover {
+        color: $foreground-bright;
+    }
+}
+
+@media screen and (max-width: 48rem) {
+    .nav-link {
+        font-size: 1rem;
+        padding: 0 0.5rem;
+    }
+}
+

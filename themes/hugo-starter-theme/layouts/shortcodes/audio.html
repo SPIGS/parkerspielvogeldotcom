@@ -1,0 +1,9 @@
+<!-- https://discourse.gohugo.io/t/playing-audio-files/21117 -->
+
+<figure class="audio-container">
+    <audio controls preload="{{ .Get " preload" | default "metadata" }}">
+        {{ with .Get "src" }}
+        <source src="{{ .  | relURL }}" type="audio/mpeg">{{ end }}
+    </audio>
+    {{ with .Get "caption" }}<figcaption>{{ . }}</figcaption>{{ end }}
+</figure>

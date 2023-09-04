@@ -1,0 +1,57 @@
+// This file holds variables that are used across all style sheets.
+
+// Color scheme
+// Adapted from spaceduck - https://github.com/pineapplegiant/spaceduck
+
+$background: #0f111b;
+$background-light: #16172d;
+$background-highlight: #1b1c36;
+
+$foreground-bright: #ffffff;
+$foreground-dark: #e0e0e0;
+
+$red: #e33400;
+$orange: #e39400;
+$yellow: #f2ce00;
+$green: #5ccc96;
+$blue: #00a3cc;
+$light-blue: #00c4f5;
+$purple: #b3a1e6;
+$purple2: #7a5ccc;
+$dark-purple: #30365f;
+$dark-purple2: #686f9a;
+$magenta: #ce6f8f;
+$gray: #747274;
+
+
+// Site colors
+// Colors for specific elements on the site
+
+$heading-color: $foreground-bright;
+$body-foreground-color: $foreground-dark;
+
+$body-background-color: $background;
+$formatted-block-background-color: $background-light;
+
+$logo-color: $blue;
+$logo-hover-color: $light-blue;
+
+$link-color: $blue;
+$link-hover-color: $light-blue;
+
+$mark-foreground-color: $foreground-bright;
+$mark-background-color: $foreground-dark;
+
+
+// Other values
+
+$font-sans: ui-sans-serif, system-ui, -apple-system, Arial, sans-serif;
+$font-mono: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;
+
+$font-size: 1.15rem;
+$line-height: 1.5;
+
+$border-radius-sm: 0.2rem;
+$border-radius-lg: 0.5rem;
+
+$screen-sm: 768px;

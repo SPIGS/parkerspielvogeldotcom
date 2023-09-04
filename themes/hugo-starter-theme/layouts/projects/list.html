@@ -1,0 +1,46 @@
+{{ partial "header.html" . }}
+
+<h1>{{ .Title }}</h1>
+
+{{ .Content }}
+
+<div class="grid-container">
+    {{ range.Data.Pages }}
+        <a href="{{ .RelPermalink }}" class="card-container" style="text-decoration: none;">
+            
+            <div class="card-img-container">
+                {{ if isset .Params "header_image"}}
+                <img class="card-image" src="{{.Params.header_image }}" alt="Project Image" />
+                {{ else }}
+                <img class="card-image" src="/images/code_stock_photo_cc.jpeg" alt="Project Image" />
+                {{ end }}
+            </div>
+            
+            <div class="card-info">
+                <p class="card-title">{{ .Title}}</p>
+
+                {{ if isset .Params "description" }}
+                    <p class="card-description">{{ .Params.description }}</p>
+                {{ end }}
+
+                {{ if or .Params.tags .Params.personal .Params.achrived }}
+                    <div class="project-tag-list">
+                        {{ if .Params.archived }}
+                        <span class="project-tag archived">archived</span>
+                        {{ end }}
+
+                        {{ if .Params.personal }}
+                        <span class="project-tag personal">personal</span>
+                        {{ end }}
+
+                        {{ range .Params.tags }}
+                            <span class="project-tag">{{ . }}</span>
+                        {{ end }}
+                    </div>
+                {{end }}
+            </div>
+        </a>
+    {{ end }}
+</div>
+
+{{ partial "footer.html" . }}

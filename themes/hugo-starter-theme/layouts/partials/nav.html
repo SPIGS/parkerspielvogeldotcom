@@ -1,0 +1,13 @@
+<header>
+  <nav>
+    <a class="logo" href="{{ .Site.BaseURL }}">
+        <span>Parker&nbsp;</span>
+        <span>Spielvogel</span>
+    </a>
+    <div class="main-menu">
+      {{ range.Site.Menus.main }}
+        <a class="nav-link" href="{{ .URL }}">{{ .Name }}</a>
+      {{ end }}
+    </div>
+  </nav>
+</header>

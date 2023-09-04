@@ -1,0 +1,38 @@
+footer {
+    max-width: 60rem;
+    margin: 0 auto 2rem;
+}
+
+footer p {
+    text-align: center;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.footer-link {
+    color: $link-color;
+    
+    &:hover {
+        color: $link-hover-color;
+    }
+}
+
+.footer-icons-container {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    a {
+        text-decoration: none;
+    }
+}
+
+@media screen and (max-width: 64rem) {
+    footer {
+        padding-left: 5vw;
+        padding-right: 5vw;
+        padding-bottom: 2rem;
+    }
+
+    footer p {
+        font-size: 0.75rem;
+    }
+}

@@ -1,4 +1,4 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://parkerspielvogel.com/'
 languageCode = 'en-us'
 title = 'Parker Spielvogel'
 theme = "hugo-starter-theme"

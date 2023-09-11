@@ -30,6 +30,7 @@
 
 .card-img-container {
     overflow: hidden;
+    text-align: center;
 }
 
 .card-image {
@@ -123,6 +124,6 @@
 
     .card-image {
         width: 100%;
-        height: auto;
+        height: 100%;
     }
 }

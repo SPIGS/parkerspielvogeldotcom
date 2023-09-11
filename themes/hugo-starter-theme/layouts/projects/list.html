@@ -10,7 +10,19 @@
             
             <div class="card-img-container">
                 {{ if isset .Params "header_image"}}
-                <img class="card-image" src="{{.Params.header_image }}" alt="Project Image" />
+                    {{ $src := resources.GetMatch (printf "%s" (.Params.header_image | safeURL)) }}
+                    {{ $data := newScratch }}
+                    {{ $extension := path.Ext $src.RelPermalink }}
+                    
+                    {{ if ne $extension ".gif" }}
+                        {{ $data.Set "webp" ($src.Resize "x280 webp q90") }}
+                        {{ $webp := $data.Get "webp" }}
+                        <img class="card-image" src="{{ $webp.RelPermalink }}" alt="Project Image" />
+                    {{ else }}
+                        {{ $data.Set "gif" ($src.Resize "x280") }}
+                        {{ $gif := $data.Get "gif" }}
+                        <img class="card-image" src="{{ $gif.RelPermalink }}" alt="Project Image" />
+                    {{ end }}
                 {{ else }}
                 <img class="card-image" src="/images/code_stock_photo_cc.jpeg" alt="Project Image" />
                 {{ end }}

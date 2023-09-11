@@ -24,7 +24,7 @@ In Spam Simulator you take the role of an unnamed IT employee of the burgeoning 
 
 The game's interface is that of a 90's email client, and we tried to give everything a Windows 95/98 aesthetic. All dropdowns, buttons, scrollbars, and popup windows work just as you expect from a Windows-like program or operating system.
 
-![A screenshot from Spam Simulator](/images/projects/spamsimulator/screenshot.jpg "A screenshot from Spam Simulator. The player seems to have gotten a gnome popup virus.")
+![A screenshot from Spam Simulator](screenshot.jpg "A screenshot from Spam Simulator. The player seems to have gotten a gnome popup virus.")
 
 The game is a survival game. As you play, the rate at which emails come in increases. In addition, emails containing viruses begin to appear - which may cause distractions or impose penalities. The game ends when your "Available Storage" on the server is filled or when recieve too many "Strikes" from your Administrator; strikes are caused by filtering out good emails or passing bad emails.
 

@@ -22,13 +22,13 @@ The one feature that I'm probably most proud of is the bot's context-free dice g
 
 Hillariously, I made this prior to actually knowing was a context-free grammar was - I didn't actually learn about it until a few years later in school!
 
-![An example of a dice roll command](/images/projects/dicebot/dice_roll.png)
+![An example of a dice roll command](dice_roll.png)
 
 ### Rules Reference
 
 Something else that was useful was having a full reference to spells and equipment used in the game rules. In Roll20, we had to manually enter in everything our characters had if we wanted the rules for a spell or piece of equipment to be easily accessible. If we needed to reference something new, we would to manually search for it on D&D rules sites or look it up in the Player's Handbook. For DiceBot, I created a json database for spells and equipment and added a command to allow users to quickly search for and display spells.
 
-![An example of a reference command](/images/projects/dicebot/spell_reference.png)
+![An example of a reference command](spell_reference.png)
 
 ## Acknowledgements and Further Reading
 

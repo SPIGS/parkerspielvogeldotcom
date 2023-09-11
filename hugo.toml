@@ -25,3 +25,6 @@ theme = "hugo-starter-theme"
     
     [markup.goldmark.renderer]
         unsafe = true
+    
+    [markup.goldmark.parser]
+    wrapStandAloneImageWithinParagraph = false

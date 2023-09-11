@@ -16,7 +16,7 @@ The [roguelike](https://en.wikipedia.org/wiki/Roguelike) genre encompasses some 
 
 The Rust version of Polymorph quickly eclipsed the scope of the original Python version. My vision for this new version was to make a traditional roguelike that was "accessible" in terms of gameplay and looked visually compelling despite having ASCII graphics; roguelikes are viewed as a niche genre for their complexity and their (lack of) visuals. My direct inspiration for this was the game *Brogue*.
 
-![A screenshot of Brogue](/images/projects/polymorph/brogue.jpeg "Brogue is a pretty game - screenshot from Rock Paper Shotgun")
+![A screenshot of Brogue](brogue.jpeg "Brogue is a pretty game - screenshot from Rock Paper Shotgun")
 
 I worked on *Polymorph* for about a year before moving on due to lack of time from school. I was able to implement a lot of the visuals, and I started a little bit of the UI. Despite not finishing it, I still think I ended up with something interesting.
 
@@ -32,9 +32,9 @@ One of the first things I worked on was player movement and level generation. A 
 4. Perform foilage growth using the foilage ruleset. Foilage (grass) grows based on the moisture level of the ground tile it is placed on (moisture level is just the distance between the tile and the nearest water tile). Foilage has serveral "stages" of growth, so thicker, taller foilage will grow closer to sources of water and thin out.
 5. Determine where to place the player and the staircase.
 
-![An example of Polymorph's level generation](/images/projects/polymorph/level_gen_example1.PNG "An example of level generation from an early version prior to shadow-casting and map memory. The player is in the center (@). Glimpses of a small lake and thick foilage can be seen towards the Northeast, and dead foilage can be seen to the Northwest along with the downward staircase (the red >).")
+![An example of Polymorph's level generation](level_gen_example1.PNG "An example of level generation from an early version prior to shadow-casting and map memory. The player is in the center (@). Glimpses of a small lake and thick foilage can be seen towards the Northeast, and dead foilage can be seen to the Northwest along with the downward staircase (the red >).")
 
-![Another example of Polymorph's level generation](/images/projects/polymorph/level_gen_example2.PNG "An example from a later version with shadows and map memory. Glowing mushrooms can be seen to the North, and a large lava lake to the East.")
+![Another example of Polymorph's level generation](level_gen_example2.PNG "An example from a later version with shadows and map memory. Glowing mushrooms can be seen to the North, and a large lava lake to the East.")
 
 ### Lighting and Shadows
 

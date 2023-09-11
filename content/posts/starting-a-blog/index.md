@@ -10,7 +10,7 @@ This was something I've been thinking of doing for a while. What really kicked m
 
 My motivation for starting this site is part of my ongoing crusade to self-host pretty much everything. About 2 years ago, after replacing my gaming computer, I decided to reuse it and set up a Linux server. At the time I just used it to [sync notes](https://syncthing.net/) between my devices for school. Since then, I've pretty much moved all of my cloud services to my home server.
 
-![Richard Stallman yelling at clouds](/images/posts/starting-a-blog-in-2023/gnu-man-yells-at-cloud.jpg)
+![Richard Stallman yelling at clouds](gnu-man-yells-at-cloud.jpg)
 
 The one aspect of my technological life that I haven't really touched is my social media usage. I did delete Twitter and Instagram off my phone a while ago, and my Reddit usage has plummeted ever since their API changes. Additionally, since the start of the year, my overall phone usage has dropped by about 20 percent, but I'd still like to reduce it further. 
 
@@ -20,7 +20,7 @@ I've actually been working on [a project](/projects/filterfeed) that will hopefu
 
 Creating this website is also an extension of my soft New Year's resolution of reading more books. Reading for entertainment or to learn subject matter outside of my job field is something I don't really do. Reducing my social media usage would give me time to pursue that. So far I've read a handful of books - I slowed down at the end of spring, but I've picked my pace back up again.
 
-![Illustration of classical literature](/images/posts/starting-a-blog-in-2023/paradiso-canto-31.jpg "Paradiso Canto XXXI - Dore")
+![Illustration of classical literature](paradiso-canto-31.jpg "I've been trying to focus on classical literature (Paradiso Canto XXXI by Dore)")
 
 Another positive aspect of this website is to exercise the expository and persuasive writing parts of my brain - things I haven't really used since school (I mostly consume and write technical documentation now). So, hopefully, it will help get my creative juices flowing.
 

@@ -40,7 +40,7 @@ Everything that is displayed to the screen is a quad with a shader - each geomet
 
 Fonts utilize `freetype2` to load font files into memory and create signed distance fields to feed into a glyph shader. This allows for the glyphs to be scaled easily without major loss in quality.
 
-![A gif of sacling fonts](/images/projects/opengl/opengl.gif "Footage of a font atlas being scaled. It looks way better in person - gif compression ruins it.")
+![Font atlas example](opengl.png "Signed distance field fonts atlas. These can be scaled very easily.")
 
 ## Plans
 

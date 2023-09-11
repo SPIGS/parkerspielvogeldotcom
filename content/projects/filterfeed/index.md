@@ -40,13 +40,13 @@ All processing for the app is done on-device, this includes fetching posts and d
 
 I think one of the main problems with most RSS readers is that they are clunky to use and look bad. While this isn't necesarily the fault of those who make them, as I feel those who work on RSS readers mainly want them for their utility, I think the lack of good usability puts off the average person from adopting them. I'm aiming to make the UI/UX of the app more inline with modern UI/UX sensibilities. I've created several different view for different "content types" which allow the content of the feeds to be displayed in way conducive to viewing it. Below you can see some examples:
 
-![A video post example](/images/projects/filterfeed/video_example.PNG "An example of displaying a video and its feed.")
+![A video post example](video_example.PNG "An example of displaying a video and its feed.")
 
-![A text forum post example](/images/projects/filterfeed/forum_post_example.PNG "A text forum post example.")
+![A text forum post example](forum_post_example.PNG "A text forum post example.")
 
 Additionally, I wrote a converter which turns the HTML of the feed content into a format that can be displayed as rich text on iOS. I did this so there is a consistant feel across the app and to remove formatting from the content. I want the app to look and feel as if it were made by Apple.
 
-![A rich text example](/images/projects/filterfeed/rich_text_example.PNG "A rich text example.")
+![A rich text example](rich_text_example.PNG "A rich text example.")
 
 ## Plans
 

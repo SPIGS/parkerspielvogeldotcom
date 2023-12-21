@@ -4,7 +4,7 @@ date: 2023-09-06T19:45:59-04:00
 draft: false
 ---
 
-This was something I've been thinking of doing for a while. What really kicked me into high-gear was learning about [Hugo](https://gohugo.io/) - or really learning [how to use Hugo](https://www.youtube.com/watch?v=ZFL09qhKi5I). I just wanted to use something that I could have more direct I control over instead of some CMS like Wordpress.
+This was something I've been thinking of doing for a while. What really kicked me into high-gear was learning about [Hugo](https://gohugo.io/) - or really learning [how to use Hugo](https://www.youtube.com/watch?v=ZFL09qhKi5I). I just wanted to use something that I could have more direct I control over instead of some CMS like WordPress.
 
 ## Social media wastes my time
 
@@ -18,7 +18,7 @@ I've actually been working on [a project](/projects/filterfeed) that will hopefu
 
 ## Using that time to exercise my brain
 
-Creating this website is also an extension of my soft New Year's resolution of reading more books. Reading for entertainment or to learn subject matter outside of my job field is something I don't really do. Reducing my social media usage would give me time to pursue that. So far I've read a handful of books - I slowed down at the end of spring, but I've picked my pace back up again.
+Creating this website is also an extension of my soft New Year's resolution of reading more books. Reading for entertainment or to learn subject matter outside of my job field is something I don't really do. Reducing my social media usage would give me time to pursue that. So far, I've read a handful of books - I slowed down at the end of spring, but I've picked my pace back up again.
 
 ![Illustration of classical literature](paradiso-canto-31.jpg "I've been trying to focus on classical literature (Paradiso Canto XXXI by Dore)")
 
@@ -34,4 +34,4 @@ This site was made with Hugo. The look of this site is based on [Eric Murphy's s
 
 The source code for this site can be found [here](https://github.com/SPIGS/parkerspielvogeldotcom).
 
-Lastly, an [RSS feed for this site](/index.xml) can be found in the footer along with a link to my Github. The RSS feed will only contain blog posts as my project write ups will be fairly infrequent (I might just post them all at once).
+Lastly, an [RSS feed for this site](/index.xml) can be found in the footer along with a link to my GitHub. The RSS feed will only contain blog posts as my project write ups will be fairly infrequent (I might just post them all at once).

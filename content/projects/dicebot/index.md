@@ -18,9 +18,9 @@ DiceBot is a Discord bot that I made sometime in 2018 for my friends and I so it
 
 ### Dice Rolling Grammar
 
-The one feature that I'm probably most proud of is the bot's context-free dice grammar. I wanted to make something more usuable than Roll20's dice grammar - particularly the ability to "roll" dice that can't be respresented by the standard platonic solids (for example a d2 for coin flips), and more robust mathematical operations (PEMDAS). In addition, it also has premade commands for things like character creation stat rolls. 
+The one feature that I'm probably most proud of is the bot's context-free dice grammar. I wanted to make something more useable than Roll20's dice grammar - particularly the ability to "roll" dice that can't be represented by the standard platonic solids (for example a d2 for coin flips), and more robust mathematical operations (PEMDAS). In addition, it also has premade commands for things like character creation stat rolls. 
 
-Hillariously, I made this prior to actually knowing was a context-free grammar was - I didn't actually learn about it until a few years later in school!
+Hilariously, I made this prior to actually knowing was a context-free grammar was - I didn't actually learn about it until a few years later in school!
 
 ![An example of a dice roll command](dice_roll.png)
 

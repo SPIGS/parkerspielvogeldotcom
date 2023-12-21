@@ -14,13 +14,13 @@ source: ""
 
 I've always preferred working with small rendering libraries over traditional game engines. In fact, one of the first libraries I ever used was a little library called Slick2D. It was a small wrapper for [LWJGL](https://www.lwjgl.org/). I always liked the freedom that these libraries provide as they leave a lot of the program structure, set-dressing, and other utilities up to you. I've been in search for a new one for prototyping games or UIs. However, most of the ones I've found haven't been to my tastes.
 
-I've tried [Sokol](https://github.com/floooh/sokol), [Raylib](https://www.raylib.com/), and [SDL](https://www.libsdl.org/). However, none of these really scratch my itch. My problem with them is I feel like they try to do too much: 2D, 3D, input, sound, context managment, etc. I just want something that can:
+I've tried [Sokol](https://github.com/floooh/sokol), [Raylib](https://www.raylib.com/), and [SDL](https://www.libsdl.org/). However, none of these really scratch my itch. My problem with them is I feel like they try to do too much: 2D, 3D, input, sound, context management, etc. I just want something that can:
 
  - Create an application window
  - Capture user input
  - Put pixels on the screen
 
-Since I couldn't find any libraries I liked, I just started working on my own. I decided to use OpenGL since it's probably the most well known/documented graphics API available. Plus, I've wanted to dabble in lower-level graphics programming since I took a computer graphics class in school. 
+Since I couldn't find any libraries I liked, I just started working on my own. I decided to use OpenGL since it's probably the most well-known/documented graphics API available. Plus, I've wanted to dabble in lower-level graphics programming since I took a computer graphics class in school. 
 
 The goal is to develop a library that fulfills my three requirements. Also, I'd like it to be able to freely integrate with other libraries for things such as physics or audio. Another requirement is a small codebase and dependency list: I want to minimize the overhead that the library would bring and to make it as transparent as possible so I can have a better understanding of what is happening at a lower level and so others might be able to learn about OpenGL/graphics programming.
 
@@ -30,11 +30,11 @@ Currently this library only has 4 dependencies: `opengl`, `glew`, `glfw3`, and `
 
 ### Utility Functions, Data Structures, etc. 
 
-All utility functions, data structures, and underlying set-dressing was made by me. This includes things like color datastructures and linear algebra functions.
+All utility functions, data structures, and underlying set-dressing was made by me. This includes things like color data structures and linear algebra functions.
 
 ### Everything is a Shader
 
-Everything that is displayed to the screen is a quad with a shader - each geometric primitive and font glyph is comprized of a single quad and an accompanying shader. Shaders are loaded from disk on application start up. I did this because it makes for a simpler renderer (all draw calls are batched quad vertices) and I'd rather write a few shaders than worry about architecting a renderer.
+Everything that is displayed to the screen is a quad with a shader - each geometric primitive and font glyph is comprised of a single quad and an accompanying shader. Shaders are loaded from disk on application start up. I did this because it makes for a simpler renderer (all draw calls are batched quad vertices) and I'd rather write a few shaders than worry about architecting a renderer.
 
 ### Fonts
 

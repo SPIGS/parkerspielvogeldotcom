@@ -10,7 +10,7 @@ tags: ["swift", "ios", "rss"]
 source: ""
 ---
 
-> Updated: December 2023
+> Updated: December 2023. Click [here](#updates) to see updates.
 
 ## About
 

@@ -50,14 +50,11 @@ Within the 72 hours, we managed to complete all of the main features of the game
 
 ## Postmortem
 
-*I haven't written an adequate postmortem yet.*
-
-## Plans
-
-We are contemplating finishing the game and releasing it on [itch.io](https://itch.io/).
+I've written a blog post about the workflow we used in the game jam. You can read it [here](/posts/gamejam-workflow/).
 
 ## Acknowledgements and Further Reading
 
-- Brian: programming and design
-- Mitchell: art and design
+- [Brian Sharp](https://github.com/B-Sharp): programming and design
+- [Mitchell James](https://www.linkedin.com/in/mitchell-james-design/): art, music, design
 - [The game's competition page](https://ldjam.com/events/ludum-dare/53/spam-simulator)
+- [The game's Github repo](https://github.com/SPIGS/SpamSimulator)

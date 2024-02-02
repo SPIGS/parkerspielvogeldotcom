@@ -36,7 +36,7 @@ However, two things you should keep in mind are:
 
 These two things ultimately influence both the kinds of games that will be submitted and how games will be judged. For example, we opted not pursue a game related to "de-liver" (i.e. butchery) or (carrier) pigeons as we assumed that those ideas over used because they are **frickin unique and weird** and low-hanging, respectively.
 
-*We were correct in this assumption. *
+*We were correct in this assumption.*
 
 ## 2. Flesh out ideas - elevator pitches
 
@@ -50,7 +50,7 @@ As we move through these few beginning steps, the general trend should be to gra
 
 In this step, you going to take those pitches that you (and your teammates) came up with and sort them based on feasibility and complexity.
 
-**You're going to have to be honest. **
+**You're going to have to be honest.**
 
 You need to understand your (and your teammates) strengths and weaknesses and the speed at which you work. In our case, going into the competition we had a solid idea of what everyone's individual responsibilities were going to be, plus we each had professional experience in our given fields (software development, and art/design), so we each had an idea of what we could handle.
 
